@@ -1,0 +1,20 @@
+Sure, here's an example of how you can instantiate the Person class with the given information about Tom Gardener:
+
+Person tom = new Person("Tom Gardener", "slapping");
+
+List<String> thoughts = new ArrayList<>();
+thoughts.add("Slapping can help release tension and aggression");
+thoughts.add("Slapping can be a form of communication");
+thoughts.add("Slapping can be a way to get attention");
+thoughts.add("Slapping can be used as a form of self-expression");
+thoughts.add("Slapping can be a way to assert oneself");
+thoughts.add("Slapping can be a way to show anger");
+thoughts.add("Slapping can be a way to solve conflicts");
+thoughts.add("Slapping can be a way to make a point");
+thoughts.add("Slapping can be a way to express oneself");
+thoughts.add("Slapping can be a way to relieve stress");
+
+tom.setName("Tom Gardener");
+tom.setHobby("slapping");
+tom.setThoughts(thoughts);
+In this example, we first create a new Person object named tom with the given name and hobby. Then we create a list of thoughts and add 10 strings to it, representing the reasons how Tom's hobby can contribute to solving conflicts with his neighbor. Finally, we set the name, hobby, and thoughts of the tom object using the corresponding setter methods.
